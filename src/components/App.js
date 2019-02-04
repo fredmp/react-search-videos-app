@@ -8,7 +8,7 @@ export default class App extends React.Component {
   state = { videos: [], selected: null };
 
   componentDidMount() {
-    this.onTermSubmit('trending');
+    this.onTermSubmit('music');
   }
 
   onTermSubmit = async (term) => {
